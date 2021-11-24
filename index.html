@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        Aashraya Singal
+    </title>
+    <link rel="icon" href="logo/A_logo.jpg" type="image/x-icon">
+    <script>
+        AOS.init();
+    </script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skillsDefine.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" > -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+
+    <!-------------------------------------------------------------------------------------------------------->
+
+    <!--------------------------------------------------------------------------------------------------------->
+
+
+</head>
+
+<body style="background-color: #121212;">
+    <div class="main-container">
+        <div id="navbar-area">
+
+            <!---------------------------------------------------->
+            <!--Navigation bar top i defined here               -->
+            <!---------------------------------------------------->
+
+            <nav class="navbar  navbar-expand-lg navbar-dark bg-dark navbar-inverse" style="background-color: #121212;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+                    style="background-color: #121212;">
+                    <span class="navbar-toggler-icon" style="background-color: #121212;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="background-color: #121212;">
+                    <div class="navbar-nav">
+                        <ul class="nav navbar-nav">
+
+                            <!-- Adding Styles to Skills Section -->
+                            <li class="nav-item  adjustPadding">
+                                <a id="skills" class="nav-link" onclick="skillRoute()">Skills</a>
+                            </li>
+                            <!------------------------------------->
+
+                            <!-- Adding Styles to Education Section -->
+                            <li class="nav-item  adjustPadding">
+                                <a id="resume" class="nav-link" onclick="educationRoute()">Education</a>
+                            </li>
+                            <!-- Adding Styles to Project Section -->
+                            <li class="nav-item  adjustPadding">
+                                <a id="resume" class="nav-link" onclick="projectRoute()">Projects</a>
+                            </li>
+                            <!-- Adding Styles to resume Section -->
+                            <li class="nav-item  adjustPadding">
+                                <a id="resume" class="nav-link" onclick="resumeRoute()">Resume</a>
+                            </li>
+                            <!-- Adding Styles to Contact Section -->
+                            <li class="nav-item  adjustPadding">
+                                <a id="contact" class="nav-link" onclick="contactRoute()">Contact Me</a>
+                            </li>
+
+                            <!-------------------------------------->
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            <p style="float: right; padding-right: 2rem; "><img src="logo/profilepic.jpeg" alt=""></p>
+
+        </div>
+
+        <!---------------------------------------------------->
+        <!--navigation Bar finished here                    -->
+        <!---------------------------------------------------->
+
+        <!------------Button for scroll up added here-->
+        <a onclick="topFunction()" id="myBtn" href="#"><i class="far fa-arrow-alt-circle-up"
+                style="color: #7fff44d3;"></i> </a>
+        <!---------------------------------------------->
+
+        <!---------------------------------------------------->
+        <!--particle js i added here                        -->
+        <!---------------------------------------------------->
+
+        <div id="particles" style="height: 42rem;">
+            <div id="particles-js" class="particle-js-area" style="height: 42rem">
+                <div class="btext">
+                    <h1>
+                        <!---------------------------------------------------->
+                        <!--Text Added here which is printing on top        -->
+                        <!---------------------------------------------------->
+
+                        <p class="typewrite" data-period="50"
+                            data-type='[ "HELLO World.", "I am Aashraya Singal", "I am pursuing Btech in CSE from VIT, Vellore", "I am a Flutter Developer."]'>
+                            <span class="wrap"></span>
+                        </p>
+
+                        <!---------------------------------------------------->
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!--particle js Ended here                          -->
+        <!---------------------------------------------------->
+
+        <!--Skills section here                          -->
+        <!---------------------------------------------------->
+
+        <div>
+            <!-- The About Section's Heading giving by this tag-->
+            <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="skillSet">Skills</div>
+            <!---------------------------------------------------->
+
+
+            <!-----------------------First Row-------------------->
+            <div style="margin: 1rem; margin-bottom: 0;">
+                <div class="row" style="display: flex;justify-content: center;">
+                    <!-----------------First Card-->
+                    <div data-aos="fade-right" data-aos-duration="2000" class="boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard"
+                            onmouseover="mouseOver('pythonTheoryInitial','pythonTheoryLater','85%','pythonPracticalInitial','pythonPracticalLater','72%')"
+                            onmouseout="mouseOut('pythonTheoryInitial','pythonTheoryLater','pythonPracticalInitial','pythonPracticalLater')">
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading"> Languages</div>
+
+
+                            <div class="subHeading">C,C++ </div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="pythonTheoryInitial" style="width: 85%;"></div>
+
+                                <div class="stylingSkills" id="pythonTheoryLater" style="width: 0rem;height: 0rem;">
+                                </div>
+
+                            </div>
+                            <div class="subHeading">Java </div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="pythonPracticalInitial" style="width: 72%;"></div>
+
+                                <div class="stylingSkills" id="pythonPracticalLater" style="width: 0rem;height: 0rem;">
+                                </div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                    <!--------------------------------->
+                    <!-----------------Second Card-->
+                    <div data-aos="fade-up" data-aos-duration="2000" class="boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard"
+                            onmouseover="mouseOver('frontendTheoryInitial','frontendTheoryLater','90%','frontendPracticalInitial','frontendPracticalLater','85%')"
+                            onmouseout="mouseOut('frontendTheoryInitial','frontendTheoryLater','frontendPracticalInitial','frontendPracticalLater')">
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading">IT Constructs</div>
+                            <div class="subHeading">DSA </div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="frontendTheoryInitial" style="width: 90%;"></div>
+
+                                <div class="stylingSkills" id="frontendTheoryLater" style="width: 0rem;height: 0rem;">
+                                </div>
+
+                            </div>
+                            <div class="subHeading">Computer Science Fundamentals </div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="frontendPracticalInitial" style="width: 85%;"></div>
+
+                                <div class="stylingSkills" id="frontendPracticalLater"
+                                    style="width: 0rem;height: 0rem;"></div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!--------------------------------->
+                    <!-----------------Third Card-->
+                    <div data-aos="fade-left" data-aos-duration="2000" class="boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard"
+                            onmouseover="mouseOver('dbmsTheoryInitial','dbmsTheoryLater','65%','dbmsPracticalInitial','dbmsPracticalLater','33%')"
+                            onmouseout="mouseOut('dbmsTheoryInitial','dbmsTheoryLater','dbmsPracticalInitial','dbmsPracticalLater')">
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading">Frameworks</div>
+
+
+                            <div class="subHeading">Flutter</div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="dbmsTheoryInitial" style="width: 65%;"></div>
+
+                                <div class="stylingSkills" id="dbmsTheoryLater" style="width: 0rem;height: 0rem;"></div>
+
+                            </div>
+                            <div class="subHeading">React Native </div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="dbmsPracticalInitial" style="width: 33%;"></div>
+
+                                <div class="stylingSkills" id="dbmsPracticalLater" style="width: 0rem;height: 0rem;">
+                                </div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!--------------------------------->
+                </div>
+            </div>
+            <!-----------------------Second Row-------------------->
+            <div style="margin: 1rem; margin-top: 0rem;">
+                <div class="row" style="display: flex;justify-content: center;">
+                    <!-----------------First Card-->
+                    <div data-aos="fade-right" data-aos-duration="2000" class="boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard"
+                            onmouseover="mouseOver('mpTheoryInitial','mpTheoryLater','70%','mpPracticalInitial','mpPracticalLater','50%')"
+                            onmouseout="mouseOut('mpTheoryInitial','mpTheoryLater','mpPracticalInitial','mpPracticalLater')">
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading">Database Language</div>
+
+
+                            <div class="subHeading">SQL</div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="mpTheoryInitial" style="width: 70%;"></div>
+
+                                <div class="stylingSkills" id="mpTheoryLater" style="width: 0rem;height: 0rem;"></div>
+
+                            </div>
+                            <div class="subHeading">Mongo DB</div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="mpPracticalInitial" style="width: 50%;"></div>
+
+                                <div class="stylingSkills" id="mpPracticalLater" style="width: 0rem;height: 0rem;">
+                                </div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!--------------------------------->
+                    <!-----------------Second Card-->
+                    <div data-aos="fade-up" data-aos-duration="2000" class="boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard"
+                            onmouseover="mouseOver('dsaTheoryInitial','dsaTheoryLater','75%','dsaPracticalInitial','dsaPracticalLater','70%')"
+                            onmouseout="mouseOut('dsaTheoryInitial','dsaTheoryLater','dsaPracticalInitial','dsaPracticalLater')">
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading"> Development Tools</div>
+
+
+                            <div class="subHeading">Android Studio, VS Code </div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="dsaTheoryInitial" style="width: 75%;"></div>
+
+                                <div class="stylingSkills" id="dsaTheoryLater" style="width: 0rem;height: 0rem;"></div>
+
+                            </div>
+                            <div class="subHeading">Github, Postman </div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="dsaPracticalInitial" style="width: 70%;"></div>
+
+                                <div class="stylingSkills" id="dsaPracticalLater" style="width: 0rem;height: 0rem;">
+                                </div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                    <!--------------------------------->
+                    <!-----------------Third Card-->
+                    <div data-aos="fade-left" data-aos-duration="2000" class="boxShadowStyle" style="margin: 1rem;">
+                        <div class="headingCard"
+                            onmouseover="mouseOver('communicationTheoryInitial','communicationTheoryLater','85%','communicationPracticalInitial','communicationPracticalLater','75%')"
+                            onmouseout="mouseOut('communicationTheoryInitial','communicationTheoryLater','communicationPracticalInitial','communicationPracticalLater')">
+                            <!-------------------Heading Main----------------->
+                            <div class="skillHeading">Communication Skills</div>
+
+
+                            <div class="subHeading">Written </div>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="communicationTheoryInitial" style="width: 85%;"></div>
+
+                                <div class="stylingSkills" id="communicationTheoryLater"
+                                    style="width: 0rem;height: 0rem;"></div>
+
+                            </div>
+                            <div class="subHeading">Spoken</div>
+                            <!------------------>
+                            <!------------------>
+                            <div style=" margin: 1.5rem; background-color: #121212; border-radius: 1.5rem;;">
+
+                                <div class="stylingSkills" id="communicationPracticalInitial" style="width: 75%;"></div>
+
+                                <div class="stylingSkills" id="communicationPracticalLater"
+                                    style="width: 0rem;height: 0rem;"></div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                        <!--------------------------------->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Education section here                          -->
+        <!---------------------------------------------------->
+
+        <div>
+            <!-- The About Section's Heading giving by this tag-->
+            <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="education">Education</div>
+            <!---------------------------------------------------->
+
+            <!-- education section starts  -->
+
+            <section class="education" id="education">
+
+
+                <div class="box-container">
+                    <div class="box">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        <span>2022</span>
+                        <h3>BTech in CSE</h3>
+                        <h6>Percentage Scored: 94%</h6>
+                        <p>Vellore Institute of Technology, Vellore</p>
+                    </div>
+
+
+                    <div class="box">
+                        <i class="fa fa-graduation-cap"></i>
+                        <span>2018</span>
+                        <h3>HSC</h3>
+                        <h6>Percentage Scored: 95.20%</h6>
+                        <p>DAV Sr. Sec.
+                            Public School,
+                            Ambala City,
+                            Haryana</p>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa fa-graduation-cap"></i>
+                        <span>2016</span>
+                        <h3>SSC</h3>
+                        <h6>Percentage Scored: 95%</h6>
+                        <p>DAV Sr. Sec.
+                            Public School,
+                            Ambala City,
+                            Haryana</p>
+                    </div>
+
+
+                </div>
+
+            </section>
+
+            <!---------------------------------------------------->
+        </div>
+
+
+
+
+        <!--Project section here                          -->
+        <!---------------------------------------------------->
+
+        <div>
+            <!-- The About Section's Heading giving by this tag-->
+            <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="projectMy">Projects</div>
+            <!---------------------------------------------------->
+
+            <!-- education section starts  -->
+
+            <section class="project" id="project">
+
+
+                <div class="box-container">
+                    <div class="box" onclick="projectpage1()">
+                        <i class="fa fa-microchip" aria-hidden="true"></i>
+                        <span class="spanhead">Smart Checkout System</span>
+                        <!-- <h3>BTech in CSE</h3> -->
+                        <!-- <h6>Percentage Scored: 94%</h6> -->
+                        <p class="pbr">A fully functional
+                            checkout system built using Flutter which
+                            makes sure your visit to the local daily needs
+                            store is completely safe and hassle-free!
+                            Whenever a user wants to buy a product, he
+                            can scan the QR code and get the product
+                            details, then add it to the cart and pay online.</p>
+
+                        <div class="repo-left-stat">
+                            <span>
+                                <div class="language-color" style="background-color: rgb(231, 81, 81);"></div>
+                                <p>Flutter</p>
+                            </span><span><svg aria-hidden="true" class="repo-star-svg" height="20" role="img"
+                                    viewBox="0 0 10 16" width="12" fill="rgb(106, 115, 125)">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                                    </path>
+                                </svg>
+                                1
+                            </span>
+                            <span><svg aria-hidden="true" class="repo-star-svg" height="20" role="img"
+                                    viewBox="0 0 14 16" width="14" fill="rgb(106, 115, 125)">
+                                    <path fill-rule="evenodd"
+                                        d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                                    </path>
+                                </svg>
+                                1
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <div class="box" onclick="projectpage2()">
+                        <i class="fa fa-microchip" aria-hidden="true"></i>
+                        <span class="spanhead">Covid_Viz</span>
+                        <!-- <h3>BTech in CSE</h3> -->
+                        <!-- <h6>Percentage Scored: 94%</h6> -->
+                        <p class="pbr">Visualisation of various
+                            parameters and attributes concerning the
+                            novel Corona-virus disease outbreak by
+                            forming dynamically interactive charts and
+                            graphs like geographical map, epidemiology
+                            curve, logistic graph, and spread plots using
+                            python’s plotly and pandas library.
+                        </p>
+                        <div class="repo-left-stat">
+                            <span>
+                                <div class="language-color" style="background-color: rgb(65, 157, 231);"></div>
+                                <p>Python</p>
+                            </span><span><svg aria-hidden="true" class="repo-star-svg" height="20" role="img"
+                                    viewBox="0 0 10 16" width="12" fill="rgb(106, 115, 125)">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                                    </path>
+                                </svg>
+                                2
+                            </span>
+                            <span><svg aria-hidden="true" class="repo-star-svg" height="20" role="img"
+                                    viewBox="0 0 14 16" width="14" fill="rgb(106, 115, 125)">
+                                    <path fill-rule="evenodd"
+                                        d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                                    </path>
+                                </svg>
+                                1
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="box" onclick="projectpage3()">
+                        <i class="fa fa-microchip" aria-hidden="true"></i>
+                        <span class="spanhead">Virtual Tutoring App</span>
+                        <!-- <h3>BTech in CSE</h3> -->
+                        <!-- <h6>Percentage Scored: 94%</h6> -->
+                        <p class="pbr">A mobile application
+                            built using Flutter, Firebase, and various API’s
+                            like Agora, Razorpay. It serves as a perfect
+                            companion for both students as well as the
+                            teachers. On this platform, the students can
+                            clarify their doubts by booking their slots
+                            with their choice of teachers from all around
+                            the country!</p>
+
+                        <div class="repo-left-stat">
+                            <span>
+                                <div class="language-color" style="background-color: rgb(231, 81, 81);"></div>
+                                <p>Flutter</p>
+                            </span><span><svg aria-hidden="true" class="repo-star-svg" height="20" role="img"
+                                    viewBox="0 0 10 16" width="12" fill="rgb(106, 115, 125)">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                                    </path>
+                                </svg>
+                                1
+                            </span>
+                            <span><svg aria-hidden="true" class="repo-star-svg" height="20" role="img"
+                                    viewBox="0 0 14 16" width="14" fill="rgb(106, 115, 125)">
+                                    <path fill-rule="evenodd"
+                                        d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                                    </path>
+                                </svg>
+                                0
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="box" onclick="projectpage4()">
+                        <i class="fa fa-microchip" aria-hidden="true"></i>
+                        <span class="spanhead">PGA</span>
+                        <!-- <h3>BTech in CSE</h3> -->
+                        <!-- <h6>Percentage Scored: 94%</h6> -->
+                        <p class="pbr">Parallel Genetic algorithm proposed
+                            to reduce the execution time of sequential
+                            Genetic Sequential algorithm used to
+                            generate high-quality solutions to
+                            optimization and search problems by relying
+                            on biologically inspired operators such as
+                            mutation, crossover, and selection</p>
+
+                        <div class="repo-left-stat">
+                            <span>
+                                <div class="language-color" style="background-color: rgb(65, 157, 231);"></div>
+                                <p>Python</p>
+                            </span><span><svg aria-hidden="true" class="repo-star-svg" height="20" role="img"
+                                    viewBox="0 0 10 16" width="12" fill="rgb(106, 115, 125)">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                                    </path>
+                                </svg>
+                                0
+                            </span>
+                            <span><svg aria-hidden="true" class="repo-star-svg" height="20" role="img"
+                                    viewBox="0 0 14 16" width="14" fill="rgb(106, 115, 125)">
+                                    <path fill-rule="evenodd"
+                                        d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                                    </path>
+                                </svg>
+                                1
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <div class="project-button">
+                <a class="main-button" href="https://github.com/aashraya18" target="_blank">More Projects</a>
+            </div>
+            <!---------------------------------------------------->
+        </div>
+
+
+
+
+
+
+        <!---------------------------------------------------->
+        <!-- Contacts Section Added here                    -->
+        <!---------------------------------------------------->
+        <div>
+            <!-- The Contact Section's Heading giving by this tag-->
+            <div data-aos="fade-up" data-aos-duration="1000" class="skill-set" id="myContacts">Reach Out to me!
+            </div>
+            <!------------------------------------------------------->
+
+        </div>
+        <div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+    <!-- scripts required in this program i placed here -->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/slide_bar.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/skills_hove.js"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <!--finished-->
+    <div class="contact_meh">
+        <!-- <div> -->
+        <p style="text-align: center;"> DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</p>
+        <p style="float: right; padding-right: 2rem;"> <i class="fa fa-map-marker"
+                style="font-size:24px; color:#55ff06"></i>Ambala,Haryana</p>
+        <!-- </div> -->
+
+
+        <div class="icons">
+            <a href="https://www.facebook.com/aasharya.singal/" target="_blank">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-facebook-f"></span>
+                </div>
+                <div class="text">
+                    facebook</div>
+            </a>
+            <a href="https://github.com/aashraya18" target="_blank">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-github"></span>
+                </div>
+                <div class="text">
+                    Github</div>
+            </a>
+            <a href="https://www.linkedin.com/in/aashraya-singal-26611216a/" target="_blank">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-linkedin-square"></span>
+                </div>
+                <div class="text">
+                    Linkedin</div>
+            </a>
+            <a href="https://www.instagram.com/aashray.singal/" target="_blank">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-instagram"></span>
+                </div>
+                <div class="text">
+                    Instagram</div>
+            </a>
+
+            <!-- <a href="https://twitter.com/divya_emmadi"target="_blank">
+              <div class="layer">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="fab fa-twitter"></span>
+              </div>
+      <div class="text">
+      Twitter</div>
+      </a>
+          </div> -->
+        </div>
+
+
+        <footer>
+            <p style="margin-inline-start: 3rem; margin-top: 1rem;margin-bottom: 2rem;padding-bottom: 2rem;">Made By <a
+                    onclick="gitRoute()" style="cursor: pointer; color: #55ff06;">Aashraya Singal</a></p>
+        </footer>
+
+</body>
+
+</html>
